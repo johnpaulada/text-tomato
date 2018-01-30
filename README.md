@@ -1,6 +1,6 @@
 <div align="center">
     <h1>Text Tomato</h1>
-    <p>A text-only Pomodoro Timer.</p>
+    <p>A text-only Pomodoro timer.</p>
 </div>
 
 <div align="center">
@@ -18,6 +18,10 @@
 <div align="center">
   <sub>Built for FreeCodeCamp with ♥ by <a href="https://github.com/johnpaulada">John Paul Ada</a>.</sub>
 </div>
+
+## Table of Contents
+- [Stack](#stack)
+- [License](#license)
 
 ## Stack
 - Normalize
