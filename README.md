@@ -19,7 +19,7 @@
   <sub>Built for FreeCodeCamp with ♥ by <a href="https://github.com/johnpaulada">John Paul Ada</a>.</sub>
 </div>
 
-## Table of Contents
+## Contents
 - [Stack](#stack)
 - [License](#license)
 
