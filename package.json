@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "node-sass": "^4.7.2"
+  }
+}
