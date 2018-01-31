@@ -29,12 +29,24 @@
 ## Contents
 - [Stack](#stack)
 - [License](#license)
+- [Dev Instructions](#dev-instructions)
+- [Build Instructions](#build-instructions)
 
 ## Stack
 - Normalize
 - Parcel
 - Hyperapp
 - Timer.js
+
+## Dev Instructions
+1. Install Yarn.
+2. Run `yarn`.
+3. Run `parcel index.html`.
+4. Open browser on [http://localhost:1234/](http://localhost:1234/).
+
+## Build Instructions
+1. Run `parcel build index.html`.
+2. Remove the `/dist` part of the generated links.
 
 ## License
 MIT
