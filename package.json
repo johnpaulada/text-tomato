@@ -1,11 +1,10 @@
 {
   "dependencies": {
-    "babel-preset-env": "^1.6.1",
     "hyperapp": "^1.0.2",
     "node-sass": "^4.7.2"
   },
   "devDependencies": {
-    "babel-preset-hyperapp": "^2.3.0",
-    "babel-preset-react": "^6.24.1"
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.1"
   }
 }

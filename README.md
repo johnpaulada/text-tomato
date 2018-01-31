@@ -16,6 +16,10 @@
 </div>
 
 <div align="center">
+  <img src="./baner.png" />
+</div>
+
+<div align="center">
   <sub>Built for FreeCodeCamp with ♥ by <a href="https://github.com/johnpaulada">John Paul Ada</a>.</sub>
 </div>
 
@@ -26,6 +30,8 @@
 ## Stack
 - Normalize
 - Parcel
+- Hyperapp
+- Timer.js
 
 ## License
 MIT

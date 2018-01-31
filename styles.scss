@@ -1,7 +1,15 @@
+// Variables
+$bgGradient: linear-gradient(to bottom, #29323c 0%,#4e4376 100%);
+$fontFamily: 'Nunito', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$white: #FAFAFA;
+$yellow: #FEE140;
+$green: #D4FC79;
+$pink: #FDCBF1;
+
 .container {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(to bottom, #29323c 0%,#4e4376 100%);
+    background: $bgGradient;
     display: flex;
     flex-direction: column;
 
@@ -12,21 +20,21 @@
         justify-content: center;
 
         .display--text {
-            font-family: 'Nunito', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: $fontFamily;
             text-align: center;
             margin: 0;
         }
 
         .display__time {
             font-weight: 900;
-            color: #FEE140;
+            color: $yellow;
             font-size: calc(2em + 7vw);
             letter-spacing: 20px;
         }
 
         .display__details {
             font-weight: 200;
-            color: #FAFAFA;
+            color: $white;
             font-size: calc(1em + 1vw);
             letter-spacing: 10px;
             margin-top: 20px;
@@ -36,15 +44,18 @@
     .options {
         flex: 1;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
 
         .options__box {
             display: flex;
-            flex-flow: column wrap;
+            flex-direction: column;
+            min-width: 50vw;
+            margin-bottom: 5em;
 
             .options__option {
-                font-family: 'Nunito', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-family: $fontFamily;
                 font-weight: 900;
                 font-size: calc(1em + 2vw);
                 letter-spacing: 5px;
@@ -53,22 +64,31 @@
             }
 
             .options__description {
-                font-family: 'Nunito', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-family: $fontFamily;
                 font-weight: 200;
                 font-size: calc(1em);
                 text-align: center;
                 letter-spacing: 5px;
                 margin: 0;
-                margin-top: 10px;
-                color: #FAFAFA;
+                margin-top: 15px;
+                color: $white;
+
+                span {
+                    cursor: pointer;
+                    transition: all 0.5s;
+                }
+
+                span:hover {
+                    text-shadow: 0 0 5px $white;
+                }
             }
 
             .focus {
-                color: #D4FC79;
+                color: $green;
             }
 
             .rest {
-                color: #FDCBF1
+                color: $pink;
             }
         }
     }
