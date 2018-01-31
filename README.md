@@ -34,6 +34,7 @@
 
 ## Stack
 - Normalize
+- Sass
 - Parcel
 - Hyperapp
 - Timer.js
