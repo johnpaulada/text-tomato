@@ -1,6 +1,6 @@
 <div align="center">
-    <h1>Text Tomato</h1>
-    <p>A text-only Pomodoro timer.</p>
+  <h1>Text Tomato</h1>
+  <p>A text-only Pomodoro timer.</p>
 </div>
 
 <div align="center">
@@ -23,7 +23,7 @@
 
 ## Screenshot
 <div align="center">
-  <img src="./banner.png" />
+  <a href="https://text-tomato.surge.sh/"><img src="./banner.png" /></a>
 </div>
 
 ## Contents
@@ -33,14 +33,14 @@
 - [Build Instructions](#build-instructions)
 
 ## Stack
-- Normalize
-- Sass
-- Parcel
-- Hyperapp
-- Timer.js
+- [Normalize.css](https://necolas.github.io/normalize.css/) - For some base CSS, used by Twitter, Medium, Github, etc.
+- [Sass](http://sass-lang.com/) - My preferred CSS Preprocessor.
+- [Parcel](https://parceljs.org/) - A zero-config, pretty fast web app bundler. My replacement for Webpack.
+- [Hyperapp](https://hyperapp.js.org/) - A 1KB JS web app library that I used for the app actions and state management.
+- [Timer.js](https://github.com/husa/timer.js/) - A countdown timer with a simple API.
 
 ## Dev Instructions
-1. Install Yarn.
+1. Install [Yarn](https://yarnpkg.com/en/).
 2. Run `yarn`.
 3. Run `parcel index.html`.
 4. Open browser on [http://localhost:1234/](http://localhost:1234/).
