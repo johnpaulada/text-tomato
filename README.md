@@ -16,11 +16,14 @@
 </div>
 
 <div align="center">
-  <img src="./baner.png" />
+  <sub>Built for FreeCodeCamp with ♥ by <a href="https://github.com/johnpaulada">John Paul Ada</a>.</sub>
 </div>
 
+---
+
+## Screenshot
 <div align="center">
-  <sub>Built for FreeCodeCamp with ♥ by <a href="https://github.com/johnpaulada">John Paul Ada</a>.</sub>
+  <img src="./banner.png" />
 </div>
 
 ## Contents
