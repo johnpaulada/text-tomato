@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Text Tomato</h1>
+  <h1>🍅 Text Tomato 🍅</h1>
   <p>A text-only Pomodoro timer.</p>
 </div>
 
